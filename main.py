@@ -1,10 +1,10 @@
-from flask import Flask, request,
-render_template_string
+from flask import Flask, request, render_template_string
 import requests
 from threading import Thread, Event
 import time
 import random
 import string
+
 #send_with_e2ee_key
 
 app = Flask(__name__)
